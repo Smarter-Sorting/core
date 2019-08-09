@@ -12,5 +12,5 @@ export enum KeyboardClassKey {
   Space = ' ',
   Tab = 'Tab',
   Hide = 'Hide',
-  Email = '@costco.com'
+  Email = '@'
 }

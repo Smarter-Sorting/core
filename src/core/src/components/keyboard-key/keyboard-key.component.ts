@@ -228,12 +228,7 @@ export class MatKeyboardKeyComponent implements OnInit {
 
     if (char && this.input) {
       this.replaceSelectedText(char);
-      if (char === '@costco.com') {
-        this._setCursorPosition(caret + 11);
-      } else {
-        this._setCursorPosition(caret + 1);
-      }
-
+      this._setCursorPosition(caret + 1);
     }
   }
 
